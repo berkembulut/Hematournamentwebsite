@@ -1,4 +1,4 @@
-import imgComponent3 from "figma:asset/5cbc738a3339c1cf7fa787780e81dfc3778ab026.png";
+import imgComponent3 from "Hematournamentwebsite/src/assets/5cbc738a3339c1cf7fa787780e81dfc3778ab026.png";
 
 export default function Component() {
   return (
