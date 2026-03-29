@@ -1,8 +1,8 @@
-import imgLogo from "figma:asset/5f1a275eba55e460fc18929358bddd7e85731ee0.png";
-import imgImage19 from "figma:asset/b43ce10fbf29e34b0d580fec82d3cb3b5ad17b0b.png";
-import imgImage20 from "figma:asset/63f076c17ab1e4904c6a5fefddfca56c29c4923d.png";
-import imgImage17 from "figma:asset/9b37148dead882988e45e910a439a3caf6e64159.png";
-import imgImage18 from "figma:asset/ef6ece782a35be610ede357e2bde5a41e261fb54.png";
+import imgLogo from "Hematournamentwebsite/src/assets5f1a275eba55e460fc18929358bddd7e85731ee0.png";
+import imgImage19 from "Hematournamentwebsite/src/assetsb43ce10fbf29e34b0d580fec82d3cb3b5ad17b0b.png";
+import imgImage20 from "Hematournamentwebsite/src/assets63f076c17ab1e4904c6a5fefddfca56c29c4923d.png";
+import imgImage17 from "Hematournamentwebsite/src/assets9b37148dead882988e45e910a439a3caf6e64159.png";
+import imgImage18 from "Hematournamentwebsite/src/assetsef6ece782a35be610ede357e2bde5a41e261fb54.png";
 
 function Frame() {
   return (
