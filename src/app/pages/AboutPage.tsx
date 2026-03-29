@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router";
 import imgImage14 from "../../assets/532931be6e07d19c1ac51421a0c8d8a7bef883e0.png";
-import imgImage16 from ../../assets/4ac7464aa18369a18fba01901df1d62f55e54a12.png";
+import imgImage16 from "../../assets/4ac7464aa18369a18fba01901df1d62f55e54a12.png";
 import imgRectangle from "../../assets/6ca275bf3ca47535cc199b86e269d90d48bb04cd.png";
 import imgRectangle1 from "../../assets/ee4a19b47400eea3246d0fe8ae5c28fa5e5527b7.png";
 import imgEskisehirCastle from "../../assets/8482251e87ed0dec6bacb7204ed8250496ea5865.png";
