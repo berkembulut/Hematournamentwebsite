@@ -1,5 +1,5 @@
 import imgLogo from "figma:asset/ed0ecbd1afa89953aec504b2b18a75fba46fbf31.png";
-import imgImage14 from "https://via.placeholder.com/150";
+import imgImage14 from "figma:asset/532931be6e07d19c1ac51421a0c8d8a7bef883e0.png";
 import imgImage16 from "figma:asset/4ac7464aa18369a18fba01901df1d62f55e54a12.png";
 import imgRectangle from "figma:asset/6ca275bf3ca47535cc199b86e269d90d48bb04cd.png";
 import imgRectangle1 from "figma:asset/ee4a19b47400eea3246d0fe8ae5c28fa5e5527b7.png";
