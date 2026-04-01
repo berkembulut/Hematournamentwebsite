@@ -1,5 +1,5 @@
-import imgLogo from "figma:asset/0f1540d7902a0fdf516f8258bc3de9918495b880.png";
-import imgIllustration from "figma:asset/5cbc738a3339c1cf7fa787780e81dfc3778ab026.png";
+import imgLogo from "../assets/0f1540d7902a0fdf516f8258bc3de9918495b880.png";
+import imgIllustration from "../assets/5cbc738a3339c1cf7fa787780e81dfc3778ab026.png";
 
 function Frame() {
   return (
