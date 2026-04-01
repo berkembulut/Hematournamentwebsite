@@ -1,16 +1,16 @@
 import { useParams, Link } from "react-router";
-import imgImage14 from "../../assets/532931be6e07d19c1ac51421a0c8d8a7bef883e0.png";
-import imgImage16 from "../../assets/4ac7464aa18369a18fba01901df1d62f55e54a12.png";
-import imgRectangle from "../../assets/6ca275bf3ca47535cc199b86e269d90d48bb04cd.png";
-import imgRectangle1 from "../../assets/ee4a19b47400eea3246d0fe8ae5c28fa5e5527b7.png";
-import imgEskisehirCastle from "../../assets/8482251e87ed0dec6bacb7204ed8250496ea5865.png";
-import imgEskisehirHouses from "../../assets/edb9ef0039a812c11ccc3f352af6bb355120168b.png";
-import imgEskisehirCity from "../../assets/4c9f2aaa831a27276118f21a48ee23863c78e69f.png";
-import imgEskisehirMeerschaum from "../../assets/e4d2ad7fc972ceb5e8133edaab5a56850d385769.png";
-import imgImage13 from "../../assets/f11a370b7a169d5ade99cd4bf2d809d02d191884.png";
-import imgImage11 from "../../assets/1ed8c6e2e63a03b6e7f02e5082f1de94f670f5ac.png";
-import imgImage12 from "../../assets/b074409ffcdfd5095d06d4c9c4861921ca188413.png";
-import imgEtssLogo from "../../assets/ecfbb3924b1b136e15c1ddaca8cbdad6aa6ecacd.png";
+import imgImage14 from "figma:asset/532931be6e07d19c1ac51421a0c8d8a7bef883e0.png";
+import imgImage16 from "figma:asset/4ac7464aa18369a18fba01901df1d62f55e54a12.png";
+import imgRectangle from "figma:asset/6ca275bf3ca47535cc199b86e269d90d48bb04cd.png";
+import imgRectangle1 from "figma:asset/ee4a19b47400eea3246d0fe8ae5c28fa5e5527b7.png";
+import imgEskisehirCastle from "figma:asset/8482251e87ed0dec6bacb7204ed8250496ea5865.png";
+import imgEskisehirHouses from "figma:asset/edb9ef0039a812c11ccc3f352af6bb355120168b.png";
+import imgEskisehirCity from "figma:asset/4c9f2aaa831a27276118f21a48ee23863c78e69f.png";
+import imgEskisehirMeerschaum from "figma:asset/e4d2ad7fc972ceb5e8133edaab5a56850d385769.png";
+import imgImage13 from "figma:asset/f11a370b7a169d5ade99cd4bf2d809d02d191884.png";
+import imgImage11 from "figma:asset/1ed8c6e2e63a03b6e7f02e5082f1de94f670f5ac.png";
+import imgImage12 from "figma:asset/b074409ffcdfd5095d06d4c9c4861921ca188413.png";
+import imgEtssLogo from "figma:asset/ecfbb3924b1b136e15c1ddaca8cbdad6aa6ecacd.png";
 
 type Section = "meet-n-beat" | "sponsors" | "eskisehir" | "contact";
 

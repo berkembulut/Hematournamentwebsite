@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router";
 import svgPaths from "../../imports/svg-bc6bpqriki";
-import imgImage10 from "../../assets/5c1388635773e1189fec4b90c45f40d7ce5f1433.png";
+import imgImage10 from "figma:asset/5c1388635773e1189fec4b90c45f40d7ce5f1433.png";
 
 type Section = "day-1" | "day-2" | "workshop";
 

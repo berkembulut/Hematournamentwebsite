@@ -1,8 +1,8 @@
 import { useParams, Link } from "react-router";
-import imgLongsword from "../../assets/82e5f52c653ebeb293db0874281c7bedd38ae180.png";
-import imgRapier from "../../assets/3d7cffe6eb979641283edc83def40591f1ec4a46.png";
-import imgEasternSaber from "../../assets/5cbc738a3339c1cf7fa787780e81dfc3778ab026.png";
-import imgMilitarySaber from "../../assets/9df4903d40deb1400b508f633d9cd2820bb47082.png";
+import imgLongsword from "figma:asset/82e5f52c653ebeb293db0874281c7bedd38ae180.png";
+import imgRapier from "figma:asset/3d7cffe6eb979641283edc83def40591f1ec4a46.png";
+import imgEasternSaber from "figma:asset/5cbc738a3339c1cf7fa787780e81dfc3778ab026.png";
+import imgMilitarySaber from "figma:asset/9df4903d40deb1400b508f633d9cd2820bb47082.png";
 
 type Category = "general-rules" | "longsword" | "rapier" | "eastern-saber" | "military-saber";
 
