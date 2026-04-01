@@ -1,4 +1,4 @@
-import imgLogo from "figma:asset/906b8e675355013a2301fc260f62df050d3c7eeb.png";
+import imgLogo from "../assets/906b8e675355013a2301fc260f62df050d3c7eeb.png";
 
 function Frame() {
   return (
