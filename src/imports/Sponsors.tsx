@@ -1,7 +1,7 @@
-import imgLogo from "figma:asset/ed0ecbd1afa89953aec504b2b18a75fba46fbf31.png";
-import imgImage13 from "figma:asset/f11a370b7a169d5ade99cd4bf2d809d02d191884.png";
-import imgImage11 from "figma:asset/1ed8c6e2e63a03b6e7f02e5082f1de94f670f5ac.png";
-import imgImage12 from "figma:asset/b074409ffcdfd5095d06d4c9c4861921ca188413.png";
+import imgLogo from "../assets/ed0ecbd1afa89953aec504b2b18a75fba46fbf31.png";
+import imgImage13 from "../assets/f11a370b7a169d5ade99cd4bf2d809d02d191884.png";
+import imgImage11 from "../assets/1ed8c6e2e63a03b6e7f02e5082f1de94f670f5ac.png";
+import imgImage12 from "../assets/b074409ffcdfd5095d06d4c9c4861921ca188413.png";
 
 function Frame() {
   return (
