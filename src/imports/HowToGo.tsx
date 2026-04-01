@@ -1,4 +1,4 @@
-import imgImage20 from "figma:asset/c5c0ad66d41154ed8936350d4a45b3d60e15561c.png";
+import imgImage20 from "../assets/c5c0ad66d41154ed8936350d4a45b3d60e15561c.png";
 
 function Frame() {
   return (
