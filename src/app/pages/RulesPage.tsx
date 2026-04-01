@@ -151,10 +151,10 @@ export default function RulesPage() {
       </div>
 
       {/* Category Selector */}
-      <div className="absolute right-0 top-[215px] flex gap-0">
+      <div className="absolute right-0 top-[190px] flex gap-0">
         {categoryOrder.map((cat, index) => (
-          <Link key={index} to={cat.route} className="h-[85px] w-[127px] flex items-center justify-center cursor-pointer transition-all hover:scale-105" style={{ backgroundColor: cat.color }}>
-            <p className="font-config font-bold text-[14px] text-black text-center px-2 leading-tight whitespace-pre-line" style={{ fontVariationSettings: "'wdth' 50" }}>
+          <Link key={index} to={cat.route} className="h-[110px] w-[170px] flex items-center justify-center cursor-pointer transition-all hover:scale-105" style={{ backgroundColor: cat.color }}>
+            <p className="font-config font-bold text-[28px] text-black text-center px-2 leading-tight whitespace-pre-line" style={{ fontVariationSettings: "'wdth' 50" }}>
               {cat.name}
             </p>
           </Link>
@@ -190,10 +190,49 @@ export default function RulesPage() {
           </div>
           
           <div 
-            className="absolute font-config font-medium left-[1100px] not-italic top-[350px] w-[700px]" 
+            className="absolute font-config font-normal left-[1100px] not-italic top-[350px] w-[700px]" 
             style={{ fontVariationSettings: "'wdth' 100" }}
           >
-            <p className="text-[56px] text-black italic leading-[1.2]">full ruleset is coming soon...</p>
+            <p className="font-config font-medium text-[24px] text-black mb-6" style={{ fontVariationSettings: "'wdth' 100" }}>
+              Documents & Links
+            </p>
+            <div className="flex flex-col gap-4">
+              <a 
+                href="https://drive.google.com/file/d/1b2r3XQqP9k-VVgKQgelIrlPePr2CUuNZ/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                className="bg-black text-white font-config font-bold text-[20px] px-6 py-3 inline-block hover:bg-white hover:text-black transition-colors border-2 border-black cursor-pointer"
+                style={{ fontVariationSettings: "'wdth' 80" }}
+              >
+                Meet'n Beat 2026 Rules (EN)
+              </a>
+              <a 
+                href="https://drive.google.com/file/d/1ASloFQY5Gna4Sp-nhJno_1uBCXy9F0tb/view?usp=share_link" 
+                target="_blank" rel="noopener noreferrer"
+                className="bg-black text-white font-config font-bold text-[20px] px-6 py-3 inline-block hover:bg-white hover:text-black transition-colors border-2 border-black cursor-pointer"
+                style={{ fontVariationSettings: "'wdth' 80" }}
+              >
+                Meet'n Beat 2026 Kurallari (TR)
+              </a>
+
+              <div className="mt-6" />
+
+              <a 
+                href="https://drive.google.com/file/d/1KTbyUZsOHrGURAt0ZVzKKbpNAwxNWfIz/view?usp=share_link" 
+                target="_blank" rel="noopener noreferrer"
+                className="bg-black text-white font-config font-bold text-[20px] px-6 py-3 inline-block hover:bg-white hover:text-black transition-colors border-2 border-black cursor-pointer"
+                style={{ fontVariationSettings: "'wdth' 80" }}
+              >
+                Code of Conduct (EN)
+              </a>
+              <a 
+                href="https://drive.google.com/file/d/12fOj0WniWw2oRIN9Uwj4d8BuFNBgnLHC/view?usp=share_link" 
+                target="_blank" rel="noopener noreferrer"
+                className="bg-black text-white font-config font-bold text-[20px] px-6 py-3 inline-block hover:bg-white hover:text-black transition-colors border-2 border-black cursor-pointer"
+                style={{ fontVariationSettings: "'wdth' 80" }}
+              >
+                Davranis Kurallari (TR)
+              </a>
+            </div>
           </div>
         </>
       )}

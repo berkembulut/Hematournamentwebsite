@@ -162,7 +162,7 @@ const sections = {
             Accommodation Options
           </p>
           <p className="text-[24px] leading-[140%] mb-8">
-            We have negotiated special rates at the following hotels for tournament participants. All hotels offer bed and breakfast. Book early to secure your spot!
+            We recommend the following hotels as listed below. All hotels offer bed and breakfast. Book early to secure your spot!
           </p>
 
           {/* Hotel Cards */}
@@ -177,7 +177,6 @@ const sections = {
                   <p className="text-[18px] text-white/70 leading-[140%]">Close to the venue · 13–14 June</p>
                 </div>
               </div>
-              <p className="text-[16px] text-white/60 italic mb-2">Prices being negotiated — expected to be the cheapest option.</p>
               <a className="cursor-pointer text-black underline decoration-solid text-[20px]" href="https://www.smartbypoint.com/" target="_blank" rel="noopener noreferrer">
                 Visit Hotel Website →
               </a>
@@ -191,16 +190,6 @@ const sections = {
                     Nova Vista Deluxe Radisson
                   </p>
                   <p className="text-[18px] text-white/70 leading-[140%]">Close to the venue · 13–14 June · Bed & Breakfast · 20 people</p>
-                </div>
-              </div>
-              <div className="flex gap-6 mt-4 mb-4">
-                <div className="bg-white/10 rounded px-4 py-2 text-center">
-                  <p className="text-[14px] text-white/60 mb-1">Single Room</p>
-                  <p className="text-[20px] font-config font-semibold" style={{ fontVariationSettings: "'wdth' 100" }}>4,000 TL</p>
-                </div>
-                <div className="bg-white/10 rounded px-4 py-2 text-center">
-                  <p className="text-[14px] text-white/60 mb-1">Double Room</p>
-                  <p className="text-[20px] font-config font-semibold" style={{ fontVariationSettings: "'wdth' 100" }}>5,000 TL</p>
                 </div>
               </div>
               <a className="cursor-pointer text-black underline decoration-solid text-[20px]" href="https://www.radissonhotels.com/en-us/hotels/radisson-individuals-nova-vista-deluxe-suites-eskisehir" target="_blank" rel="noopener noreferrer">
@@ -218,20 +207,6 @@ const sections = {
                   <p className="text-[18px] text-white/70 leading-[140%]">Hotel of the after party · 13–14 June · Bed & Breakfast · 20 people</p>
                 </div>
               </div>
-              <div className="flex gap-6 mt-4 mb-4">
-                <div className="bg-white/10 rounded px-4 py-2 text-center">
-                  <p className="text-[14px] text-white/60 mb-1">Single Room</p>
-                  <p className="text-[20px] font-config font-semibold" style={{ fontVariationSettings: "'wdth' 100" }}>2,500 TL</p>
-                </div>
-                <div className="bg-white/10 rounded px-4 py-2 text-center">
-                  <p className="text-[14px] text-white/60 mb-1">Double Room</p>
-                  <p className="text-[20px] font-config font-semibold" style={{ fontVariationSettings: "'wdth' 100" }}>3,500 TL</p>
-                </div>
-                <div className="bg-white/10 rounded px-4 py-2 text-center">
-                  <p className="text-[14px] text-white/60 mb-1">Triple Room</p>
-                  <p className="text-[20px] font-config font-semibold" style={{ fontVariationSettings: "'wdth' 100" }}>4,500 TL</p>
-                </div>
-              </div>
               <a className="cursor-pointer text-black underline decoration-solid text-[20px]" href="https://www.letocityhotel.com/en/" target="_blank" rel="noopener noreferrer">
                 Visit Hotel Website →
               </a>
@@ -245,20 +220,6 @@ const sections = {
                     Grand Arte Hotel
                   </p>
                   <p className="text-[18px] text-white/70 leading-[140%]">In the center, best price performance · 13–14 June · Bed & Breakfast · 20 people</p>
-                </div>
-              </div>
-              <div className="flex gap-6 mt-4 mb-4">
-                <div className="bg-white/10 rounded px-4 py-2 text-center">
-                  <p className="text-[14px] text-white/60 mb-1">Single Room</p>
-                  <p className="text-[20px] font-config font-semibold" style={{ fontVariationSettings: "'wdth' 100" }}>3,500 TL</p>
-                </div>
-                <div className="bg-white/10 rounded px-4 py-2 text-center">
-                  <p className="text-[14px] text-white/60 mb-1">Double Room</p>
-                  <p className="text-[20px] font-config font-semibold" style={{ fontVariationSettings: "'wdth' 100" }}>4,500 TL</p>
-                </div>
-                <div className="bg-white/10 rounded px-4 py-2 text-center">
-                  <p className="text-[14px] text-white/60 mb-1">Triple Room</p>
-                  <p className="text-[20px] font-config font-semibold" style={{ fontVariationSettings: "'wdth' 100" }}>5,700 TL</p>
                 </div>
               </div>
               <a className="cursor-pointer text-black underline decoration-solid text-[20px]" href="https://www.grandeartehotels.com/en-us/home-2/" target="_blank" rel="noopener noreferrer">
@@ -317,10 +278,10 @@ export default function JourneyPage() {
       </div>
 
       {/* Section Selector */}
-      <div className="absolute right-0 top-[215px] flex gap-0">
+      <div className="absolute right-0 top-[190px] flex gap-0">
         {sectionOrder.map((sec, index) => (
-          <Link key={index} to={sec.route} className="h-[85px] w-[160px] flex items-center justify-center cursor-pointer transition-all hover:scale-105" style={{ backgroundColor: sec.color }}>
-            <p className="font-config font-bold text-[14px] text-black text-center px-2 leading-tight whitespace-pre-line" style={{ fontVariationSettings: "'wdth' 50" }}>
+          <Link key={index} to={sec.route} className="h-[110px] w-[210px] flex items-center justify-center cursor-pointer transition-all hover:scale-105" style={{ backgroundColor: sec.color }}>
+            <p className="font-config font-bold text-[28px] text-black text-center px-2 leading-tight whitespace-pre-line" style={{ fontVariationSettings: "'wdth' 50" }}>
               {sec.name}
             </p>
           </Link>

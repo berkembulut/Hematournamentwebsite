@@ -179,10 +179,10 @@ export default function AboutPage() {
       </div>
 
       {/* Section Selector */}
-      <div className="absolute right-0 top-[215px] flex gap-0">
+      <div className="absolute right-0 top-[190px] flex gap-0">
         {sectionOrder.map((sec, index) => (
-          <Link key={index} to={sec.route} className="h-[85px] w-[127px] flex items-center justify-center cursor-pointer transition-all hover:scale-105" style={{ backgroundColor: sec.color }}>
-            <p className="font-config font-bold text-[14px] text-black text-center px-2 leading-tight whitespace-pre-line" style={{ fontVariationSettings: "'wdth' 50" }}>
+          <Link key={index} to={sec.route} className="h-[110px] w-[170px] flex items-center justify-center cursor-pointer transition-all hover:scale-105" style={{ backgroundColor: sec.color }}>
+            <p className="font-config font-bold text-[28px] text-black text-center px-2 leading-tight whitespace-pre-line" style={{ fontVariationSettings: "'wdth' 50" }}>
               {sec.name}
             </p>
           </Link>
