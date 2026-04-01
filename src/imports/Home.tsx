@@ -1,8 +1,8 @@
-import imgComponent3 from "figma:asset/5cbc738a3339c1cf7fa787780e81dfc3778ab026.png";
-import imgLogo from "figma:asset/c655a8c72fae78f6d44a8d51c7945b1131376d22.png";
-import imgComponent4 from "figma:asset/82e5f52c653ebeb293db0874281c7bedd38ae180.png";
-import imgComponent5 from "figma:asset/3d7cffe6eb979641283edc83def40591f1ec4a46.png";
-import imgComponent6 from "figma:asset/9df4903d40deb1400b508f633d9cd2820bb47082.png";
+import imgComponent3 from "../assets/5cbc738a3339c1cf7fa787780e81dfc3778ab026.png";
+import imgLogo from "../assets/c655a8c72fae78f6d44a8d51c7945b1131376d22.png";
+import imgComponent4 from "../assets/82e5f52c653ebeb293db0874281c7bedd38ae180.png";
+import imgComponent5 from "../assets/3d7cffe6eb979641283edc83def40591f1ec4a46.png";
+import imgComponent6 from "../assets/9df4903d40deb1400b508f633d9cd2820bb47082.png";
 
 function Frame() {
   return (
