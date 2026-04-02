@@ -5,8 +5,11 @@ import imgComponent6 from "figma:asset/9df4903d40deb1400b508f633d9cd2820bb47082.
 import imgEtssLogo from "figma:asset/ecfbb3924b1b136e15c1ddaca8cbdad6aa6ecacd.png";
 import { Link } from "react-router";
 import { useState, useEffect } from "react";
+import { useI18n } from "../i18n";
 
 export default function HomePage() {
+  const { t } = useI18n();
+  
   // Countdown to April 3, 2026, 14:00 Turkey time (UTC+3)
   const targetDate = new Date("2026-04-03T11:00:00Z"); // 14:00 Turkey = 11:00 UTC
   const [timeLeft, setTimeLeft] = useState(() => {
@@ -44,28 +47,24 @@ export default function HomePage() {
       </div>
 
       {/* Decorative Images */}
-      {/* Eastern Saber - Bottom Right on Green */}
       <div className="absolute h-[310px] left-[1235px] top-[723px] w-[553px] z-20">
         <Link to="/rules/eastern-saber" className="absolute inset-0 group">
           <img alt="Eastern Saber" className="absolute h-[100.01%] left-0 max-w-none top-0 w-full transition-all duration-300 group-hover:brightness-0 group-hover:invert cursor-pointer" src={imgComponent3} />
         </Link>
       </div>
 
-      {/* Longsword - Top Left on Blue */}
       <div className="absolute h-[485px] left-[229px] top-[168px] w-[479px] z-20">
         <Link to="/rules/longsword" className="absolute inset-0 group">
           <img alt="Longsword" className="absolute inset-0 max-w-none object-cover size-full transition-all duration-300 group-hover:brightness-0 group-hover:invert cursor-pointer" src={imgComponent4} />
         </Link>
       </div>
 
-      {/* Rapier - Top Right on Pink */}
       <div className="absolute h-[291px] left-[1203px] top-[357px] w-[617px] z-20">
         <Link to="/rules/rapier" className="absolute inset-0 group">
           <img alt="Rapier" className="absolute inset-0 max-w-none object-cover size-full transition-all duration-300 group-hover:brightness-0 group-hover:invert cursor-pointer" src={imgComponent5} />
         </Link>
       </div>
 
-      {/* Military Saber - Bottom Left on Yellow */}
       <div className="absolute h-[450px] left-[142px] top-[615px] w-[530px] z-20">
         <Link to="/rules/military-saber" className="absolute inset-0 group">
           <img alt="Military Saber" className="absolute inset-0 max-w-none object-cover size-full transition-all duration-300 group-hover:brightness-0 group-hover:invert cursor-pointer" src={imgComponent6} />
@@ -83,14 +82,14 @@ export default function HomePage() {
             rel="noopener noreferrer"
             style={{ fontVariationSettings: "'wdth' 100" }}
           >
-            REGISTRATION!
+            {t("home.registration")}
           </a>
         ) : (
           <div 
             className="absolute flex items-center justify-start font-config font-bold inset-0 text-[28px] text-black/40 tracking-[-1.5px] whitespace-nowrap px-4 cursor-default"
             style={{ fontVariationSettings: "'wdth' 100" }}
           >
-            <span className="mr-2">REGISTRATION</span>
+            <span className="mr-2">{t("home.registration_label")}</span>
             <span className="font-config text-[22px] tracking-normal" style={{ fontVariationSettings: "'wdth' 80" }}>
               {String(days).padStart(2, '0')}d {String(hours).padStart(2, '0')}h {String(minutes).padStart(2, '0')}m {String(seconds).padStart(2, '0')}s
             </span>
@@ -115,7 +114,7 @@ export default function HomePage() {
               className="font-config font-semibold leading-[normal] not-italic text-[20px] text-black group-hover:text-white transition-colors" 
               style={{ fontVariationSettings: "'wdth' 50" }}
             >
-              LOCATION: SEHIT SUAT CELIK GENCLIK MERKEZI
+              {t("home.location_label")}
             </p>
             
             <div className="flex items-center justify-start gap-2 mt-1">
@@ -149,13 +148,9 @@ export default function HomePage() {
       {/* Turn phone horizontal icon - bottom right */}
       <div className="absolute right-[40px] top-[1010px] z-30">
         <svg width="56" height="56" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-          {/* Phone body - horizontal/landscape */}
           <rect x="10" y="20" width="44" height="24" rx="4" fill="black" />
-          {/* Screen */}
           <rect x="15" y="23" width="34" height="18" rx="1" fill="white" />
-          {/* Home button dot */}
           <circle cx="52" cy="32" r="1.5" fill="white" />
-          {/* Single curved arrow */}
           <path d="M18 12 A20 20 0 0 1 46 12" stroke="black" strokeWidth="3" strokeLinecap="round" fill="none" />
           <polygon points="46,6 46,18 54,12" fill="black" />
         </svg>
