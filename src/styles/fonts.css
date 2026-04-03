@@ -4,3 +4,11 @@
 body {
   font-family: "config-variable", "Inter", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
