@@ -125,8 +125,8 @@ export default function HomePage() {
         ))}
 
         {/* ETSS Logo */}
-        <div className="flex justify-center py-6 bg-[#f6fbff]">
-          <img alt="ETSS Logo" className="h-[50px] object-contain" src={imgEtssLogo} />
+        <div className="absolute left-1/2 -translate-x-1/2 top-[870px] flex items-center justify-center z-30">
+          <img alt="ETSS Logo" className="h-[80px] object-contain" src={imgEtssLogo} />
         </div>
       </div>
     );
@@ -136,7 +136,7 @@ export default function HomePage() {
   return (
     <div className="relative min-h-[1080px] w-full">
       {/* Background */}
-      <div className="absolute bg-[#f6fbff] content-start flex flex-wrap gap-0 h-[1080px] items-start left-0 pt-[300px] top-0 w-full z-0">
+      <div className="absolute bg-[#f6fbff] content-start flex flex-wrap gap-0 h-[1080px] items-start left-[-50%] pt-[300px] top-0 w-[200%] z-0">
         <div className="h-[390px] relative shrink-0 w-[50%]">
           <svg className="absolute block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 960 390">
             <path d="M0 0H960V390H0V0Z" fill="var(--fill-0, #147AF4)" />
@@ -239,20 +239,9 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* ETSS Logo */}
-      <div className="absolute left-1/2 -translate-x-1/2 top-[870px] flex justify-center z-30">
+      {/* Sponsors */}
+      <div className="absolute left-1/2 -translate-x-1/2 top-[870px] flex items-center justify-center z-30">
         <img alt="ETSS Logo" className="h-[80px] object-contain" src={imgEtssLogo} />
-      </div>
-
-      {/* Turn phone horizontal icon - bottom right */}
-      <div className="absolute right-[40px] top-[1010px] z-30">
-        <svg width="56" height="56" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="10" y="20" width="44" height="24" rx="4" fill="black" />
-          <rect x="15" y="23" width="34" height="18" rx="1" fill="white" />
-          <circle cx="52" cy="32" r="1.5" fill="white" />
-          <path d="M18 12 A20 20 0 0 1 46 12" stroke="black" strokeWidth="3" strokeLinecap="round" fill="none" />
-          <polygon points="46,6 46,18 54,12" fill="black" />
-        </svg>
       </div>
     </div>
   );
