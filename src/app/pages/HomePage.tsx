@@ -9,8 +9,13 @@ import { useI18n } from "../i18n";
 import { useMobile } from "../MobileContext";
 
 export default function HomePage() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const isMobile = useMobile();
+
+  // Different registration links for Turkish and English
+  const registrationLink = lang === "tr"
+    ? "https://docs.google.com/forms/d/e/1FAIpQLSfq9W4ytIGBuCe8V2vrHv0WVchKKfqzw5f4UvRG1d5yLRS8vw/viewform"
+    : "https://forms.gle/u4gTULqxqpvzEKf86";
 
   const targetDate = new Date("2026-04-03T11:00:00Z");
   const [timeLeft, setTimeLeft] = useState(() => {
@@ -50,7 +55,7 @@ export default function HomePage() {
             {isOpen ? (
               <a
                 className="flex items-center justify-start font-config font-bold h-full text-[28px] text-white tracking-[-1.5px] whitespace-nowrap px-3 bg-black hover:bg-white hover:text-black transition-colors"
-                href="https://forms.gle/u4gTULqxqpvzEKf86"
+                href={registrationLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ fontVariationSettings: "'wdth' 100" }}
@@ -177,7 +182,7 @@ export default function HomePage() {
         {isOpen ? (
           <a
             className="absolute flex items-center justify-start cursor-pointer font-config font-bold inset-0 text-[40px] text-black tracking-[-2.4px] whitespace-nowrap transition-colors hover:bg-black hover:text-white px-4"
-            href="https://forms.gle/u4gTULqxqpvzEKf86"
+            href={registrationLink}
             target="_blank"
             rel="noopener noreferrer"
             style={{ fontVariationSettings: "'wdth' 100" }}
