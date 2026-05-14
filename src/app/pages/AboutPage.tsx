@@ -12,6 +12,8 @@ import imgImage11 from "figma:asset/1ed8c6e2e63a03b6e7f02e5082f1de94f670f5ac.png
 import imgImage12 from "figma:asset/b074409ffcdfd5095d06d4c9c4861921ca188413.png";
 import imgEtssLogo from "figma:asset/ecfbb3924b1b136e15c1ddaca8cbdad6aa6ecacd.png";
 import imgSpesLogo from "figma:asset/b5686f4a4f5ce8dc412cbbe2ff18ec452ed7f106.png";
+import imgMfLogo from "../../imports/mf_logo_1_.png";
+import imgMaLogo from "../../imports/ma-amblem-maske__1_-01.png";
 import { useI18n } from "../i18n";
 import { useMobile } from "../MobileContext";
 import MobileTabs from "../components/MobileTabs";
@@ -88,16 +90,22 @@ export default function AboutPage() {
             <div className="px-4 py-6">
               <div className="flex flex-col items-center gap-6">
                 <a href="https://silkfencing.pl/home" target="_blank" rel="noopener noreferrer" className="group">
-                  <img alt="Silk Fencing" className="h-[120px] object-contain transition-opacity group-hover:opacity-80" src={imgImage12} />
+                  <img alt="Silk Fencing" className="h-[90px] object-contain transition-opacity group-hover:opacity-80" src={imgImage12} />
                 </a>
                 <a href="https://www.instagram.com/kut.armoury/" target="_blank" rel="noopener noreferrer" className="group">
-                  <img alt="Kut Armoury" className="h-[100px] object-contain transition-opacity group-hover:opacity-80" src={imgImage13} />
+                  <img alt="Kut Armoury" className="h-[80px] object-contain transition-opacity group-hover:opacity-80" src={imgImage13} />
                 </a>
                 <a href="https://sparringglove.com/" target="_blank" rel="noopener noreferrer" className="group">
-                  <img alt="Sparring Glove" className="h-[100px] object-contain transition-opacity group-hover:opacity-80" src={imgImage11} />
+                  <img alt="Sparring Glove" className="h-[80px] object-contain transition-opacity group-hover:opacity-80" src={imgImage11} />
                 </a>
                 <a href="https://histfenc.eu/en/" target="_blank" rel="noopener noreferrer" className="group">
-                  <img alt="SPES Historical Fencing Gear" className="h-[100px] object-contain transition-opacity group-hover:opacity-80" src={imgSpesLogo} />
+                  <img alt="SPES Historical Fencing Gear" className="h-[80px] object-contain transition-opacity group-hover:opacity-80" src={imgSpesLogo} />
+                </a>
+                <a href="https://martinfabian.sk/en/product/fechtbuch-fabian-english/" target="_blank" rel="noopener noreferrer" className="group">
+                  <img alt="Martin Fabian" className="h-[180px] object-contain transition-opacity group-hover:opacity-80" src={imgMfLogo} />
+                </a>
+                <a href="https://mamlukarchery.org/" target="_blank" rel="noopener noreferrer" className="group">
+                  <img alt="Mamluk Archery" className="h-[200px] object-contain transition-opacity group-hover:opacity-80" src={imgMaLogo} />
                 </a>
               </div>
             </div>
@@ -158,10 +166,12 @@ export default function AboutPage() {
       case "sponsors":
         return (
           <>
-            <div className="absolute h-[336px] left-[114px] overflow-clip top-[435px] w-[271px]"><a href="https://silkfencing.pl/home" target="_blank" rel="noopener noreferrer" className="absolute h-[332px] left-0 top-[14px] w-[271px] cursor-pointer group"><img alt="Silk Fencing" className="absolute inset-0 max-w-none object-cover size-full transition-opacity group-hover:opacity-80" src={imgImage12} /></a></div>
-            <div className="absolute h-[336px] left-[478px] overflow-clip top-[473px] w-[364px]"><a href="https://www.instagram.com/kut.armoury/" target="_blank" rel="noopener noreferrer" className="absolute h-[296px] left-0 top-0 w-[374px] cursor-pointer group"><img alt="Kut Armoury" className="absolute inset-0 max-w-none object-cover size-full transition-opacity group-hover:opacity-80" src={imgImage13} /></a></div>
-            <div className="absolute h-[352px] left-[1007px] overflow-clip top-[473px] w-[285px]"><a href="https://sparringglove.com/" target="_blank" rel="noopener noreferrer" className="absolute h-[296px] left-0 top-0 w-[258px] cursor-pointer group"><div className="absolute inset-0 overflow-hidden"><img alt="Sparring Glove" className="absolute h-[100.32%] left-0 max-w-none top-[-0.16%] w-full transition-opacity group-hover:opacity-80" src={imgImage11} /></div></a></div>
-            <div className="absolute h-[336px] left-[1380px] overflow-clip top-[473px] w-[300px]"><a href="https://histfenc.eu/en/" target="_blank" rel="noopener noreferrer" className="absolute h-[296px] left-0 top-0 w-[300px] cursor-pointer group"><img alt="SPES Historical Fencing Gear" className="absolute inset-0 max-w-none object-contain size-full transition-opacity group-hover:opacity-80" src={imgSpesLogo} /></a></div>
+            <div className="absolute h-[280px] left-[90px] overflow-clip top-[435px] w-[200px]"><a href="https://silkfencing.pl/home" target="_blank" rel="noopener noreferrer" className="absolute h-[280px] left-0 top-0 w-[200px] cursor-pointer group"><img alt="Silk Fencing" className="absolute inset-0 max-w-none object-contain size-full transition-opacity group-hover:opacity-80" src={imgImage12} /></a></div>
+            <div className="absolute h-[280px] left-[330px] overflow-clip top-[435px] w-[240px]"><a href="https://www.instagram.com/kut.armoury/" target="_blank" rel="noopener noreferrer" className="absolute h-[280px] left-0 top-0 w-[240px] cursor-pointer group"><img alt="Kut Armoury" className="absolute inset-0 max-w-none object-contain size-full transition-opacity group-hover:opacity-80" src={imgImage13} /></a></div>
+            <div className="absolute h-[280px] left-[610px] overflow-clip top-[435px] w-[200px]"><a href="https://sparringglove.com/" target="_blank" rel="noopener noreferrer" className="absolute h-[280px] left-0 top-0 w-[200px] cursor-pointer group"><img alt="Sparring Glove" className="absolute inset-0 max-w-none object-contain size-full transition-opacity group-hover:opacity-80" src={imgImage11} /></a></div>
+            <div className="absolute h-[280px] left-[850px] overflow-clip top-[435px] w-[220px]"><a href="https://histfenc.eu/en/" target="_blank" rel="noopener noreferrer" className="absolute h-[280px] left-0 top-0 w-[220px] cursor-pointer group"><img alt="SPES Historical Fencing Gear" className="absolute inset-0 max-w-none object-contain size-full transition-opacity group-hover:opacity-80" src={imgSpesLogo} /></a></div>
+            <div className="absolute h-[280px] left-[1110px] overflow-clip top-[435px] w-[320px]"><a href="https://martinfabian.sk/en/product/fechtbuch-fabian-english/" target="_blank" rel="noopener noreferrer" className="absolute h-[280px] left-0 top-0 w-[320px] cursor-pointer group"><img alt="Martin Fabian" className="absolute inset-0 max-w-none object-contain size-full transition-opacity group-hover:opacity-80" src={imgMfLogo} /></a></div>
+            <div className="absolute h-[280px] left-[1320px] overflow-clip top-[435px] w-[340px]"><a href="https://mamlukarchery.org/" target="_blank" rel="noopener noreferrer" className="absolute h-[280px] left-0 top-0 w-[340px] cursor-pointer group"><img alt="Mamluk Archery" className="absolute inset-0 max-w-none object-contain size-full transition-opacity group-hover:opacity-80" src={imgMaLogo} /></a></div>
           </>
         );
       case "contact":
