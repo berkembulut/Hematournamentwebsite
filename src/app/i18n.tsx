@@ -212,10 +212,32 @@ const translations: Record<string, Record<Lang, string>> = {
   // Schedule - Tab Names
   "schedule.day1": { en: "DAY 1", tr: "GUN 1" },
   "schedule.day2": { en: "DAY 2", tr: "GUN 2" },
+  "schedule.day3": { en: "DAY 3", tr: "GUN 3" },
   "schedule.workshop": { en: "WORKSHOP", tr: "ATOLYE" },
-  "schedule.day1_date": { en: "13 JUNE SATURDAY", tr: "13 HAZIRAN CUMARTESI" },
-  "schedule.day2_date": { en: "14 JUNE SUNDAY", tr: "14 HAZIRAN PAZAR" },
+  "schedule.day1_date": { en: "12 JUNE FRIDAY", tr: "12 HAZIRAN CUMA" },
+  "schedule.day1_tab_suffix": { en: "(SEMINAR)", tr: "(SEMINER)" },
+  "schedule.day2_date": { en: "13 JUNE SATURDAY", tr: "13 HAZIRAN CUMARTESI" },
+  "schedule.day3_date": { en: "14 JUNE SUNDAY", tr: "14 HAZIRAN PAZAR" },
   "schedule.detailed": { en: "Detailed schudule is coming after closing of registration.", tr: "Detayli program kayitlarin kapanmasindan sonra gelecektir." },
+
+  // Schedule - Timetable activity labels
+  "schedule.start": { en: "Start", tr: "Baslangic" },
+  "schedule.break": { en: "Break", tr: "Mola" },
+  "schedule.pools": { en: "Pools", tr: "Havuzlar" },
+  "schedule.elimination": { en: "Elimination", tr: "Eleme" },
+  "schedule.seminar": { en: "Seminar", tr: "Seminer" },
+  "schedule.celebration": { en: "Celebration", tr: "Kutlama" },
+  "schedule.longsword": { en: "Longsword", tr: "Uzun Kilic" },
+  "schedule.eastern_saber": { en: "Eastern saber", tr: "Turk Kilici" },
+  "schedule.military_saber": { en: "Military saber", tr: "Sabre" },
+  "schedule.rapier": { en: "Rapier", tr: "Epe" },
+  "schedule.friday": { en: "Friday 12 June", tr: "Cuma 12 Haziran" },
+
+  // Schedule - Workshop Friday note
+  "schedule.workshop_friday_label": { en: "Friday Session:", tr: "Cuma Seansi:" },
+  "schedule.workshop_friday": { en: " 12 June, 18:30 - 20:00 ", tr: " 12 Haziran, 18:30 - 20:00 " },
+  "schedule.workshop_saturday_label": { en: "Saturday Session:", tr: "Cumartesi Seansi:" },
+  "schedule.workshop_saturday": { en: " 13 June, 18:30 - 19:30 ", tr: " 13 Haziran, 18:30 - 19:30 " },
 
   // Schedule - Workshop
   "schedule.workshop_title_label": { en: "Title:", tr: "Baslik:" },
